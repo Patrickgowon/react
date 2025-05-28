@@ -7,6 +7,7 @@ import Homme from './Pages/home';
 import Loginn from './Pages/login-page';
 import Card from './component/cart';
 import Homeassign from './Pages/assignment';
+import Example from './Pages/example';
 
 
 
@@ -17,6 +18,7 @@ const App = () =>{
       < Login/>
       <Homeassign/>
       <Homeassign/>
+      <Example/>
 
     </div>
     
