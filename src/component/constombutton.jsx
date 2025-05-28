@@ -1,7 +1,7 @@
 import React from "react";
 const Custombutton = ({name, colour}) =>{
     const Handclick = () =>{
-        alert("button is click");
+        alert("this will be the message shown in the alert when the button is click");
     }
     return(
         <div className="bg-gray-200">
