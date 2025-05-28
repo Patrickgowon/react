@@ -16,6 +16,7 @@ const App = () =>{
       
       < Login/>
       <Homeassign/>
+      <Homeassign/>
 
     </div>
     
