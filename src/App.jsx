@@ -9,6 +9,8 @@ import Card from './component/cart';
 import Homeassign from './Pages/assignment';
 import Example from './Pages/example';
 import Numbercount from './Pages/assignment2';
+import Buttonfunc from './Pages/createbutton';
+
 
 
 
@@ -21,6 +23,7 @@ const App = () =>{
       <Homeassign/>
       <Example/>
       <Numbercount/>
+      <Buttonfunc/>
 
     </div>
     
