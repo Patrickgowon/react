@@ -9,11 +9,14 @@ import Workbtn from "../component/workbtn"
 const Example = () =>{
 
     const [name, setName] = useState('');
-     const [email, setEmail] = useState('');
+     const [email,
+         setEmail] = useState('');
      const handlesumit = (e) =>{
         e.preventDefault();
         alert(name)
      }
+
+
 
 
     return(
