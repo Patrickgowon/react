@@ -12,6 +12,9 @@ import Numbercount from './Pages/assignment2';
 import Buttonfunc from './Pages/createbutton';
 import Mapfunc from './Pages/mapfuction';
 import Fruit from './Pages/fruit';
+import Challenge from './Pages/challenge1';
+import Chall from './Pages/challenge2';
+import Challen from './Pages/Challege3';
 
 
 
@@ -19,14 +22,19 @@ import Fruit from './Pages/fruit';
 const App = () =>{
   return(
     <div>
+      <Challen/>
+      <Chall/>
       <Mapfunc/>
+      <Fruit/>
+      <Challenge/>
+      
       < Login/>
       <Homeassign/>
       <Homeassign/>
       <Example/>
       <Numbercount/>
       <Buttonfunc/>
-      <Fruit/>
+      
       
 
     </div>
